@@ -3,7 +3,7 @@ import './Events.css'
 
 function Events() {
   return (
-    <div>Events</div>
+    <div id='events'>Events</div>
   )
 }
 

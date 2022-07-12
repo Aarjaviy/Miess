@@ -3,7 +3,7 @@ import './Team.css'
 
 function Team() {
   return (
-    <div>Team</div>
+    <div id='team'>Team</div>
   )
 }
 

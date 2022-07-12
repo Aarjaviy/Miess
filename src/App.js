@@ -5,7 +5,7 @@ import AboutUs from './components/AboutUs'
 import Events from './components/Events'
 import Team from './components/Team'
 import Gallery from './components/Gallery';
-import ContactUs from './components/ContactUs'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
       <Events/>
       <Team/>
       <Gallery/>
-      <ContactUs/>
+      <Contact/>
     </>
   );
 }
