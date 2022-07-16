@@ -1,5 +1,5 @@
 .contact{
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
    
  .contact-container{
@@ -58,6 +58,8 @@
   .contact input:focus, .contact textarea:focus{
     background: transparent;
     border: 0.15rem solid white;
+    color:white;
+    font-size: larger;
   }
   
   .contact textarea{
@@ -98,8 +100,8 @@
   }
 
   .text-center ::placeholder{
-    color: white;
-    font-size: larger;
+    color:#C4C4C4;
+    font-size: large;
   }
 
   .contactIcons{
