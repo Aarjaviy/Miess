@@ -1,0 +1,41 @@
+.events{
+    background-color: #F3F3F3;
+    padding: 1rem 0 4rem 0;
+}
+
+.heading h1{
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+.events img{
+    height: 10rem;
+    width: 10rem !important;
+}
+
+.events-content{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C8DFE3;
+    width: 50%;
+}
+
+.myCarousel{
+    display: flex;
+    padding: 3rem 5rem;
+}
+
+.carousel-content{
+
+}
+
+.carousel-content p{
+    font-size:larger;
+    color: black;
+}
+
+@media(max-width: 768px){
+    .myCarousel{
+        display: block;
+    }
+}

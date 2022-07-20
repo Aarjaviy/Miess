@@ -4,18 +4,18 @@
    
  .contact-container{
   padding: 2rem;
-  background: #0B3067;
+  background: #F3F3F3;
 }
 
 .heading{
     text-align: center;
-    color: #52A7EA;
+    color: #49A3B3;
     margin-bottom: 1rem;
   }
 
   .heading h1{
-    font-weight: 800;
-    font-size: 9.5rem;
+    font-weight: 700;
+    font-size: 4rem;
   }
   
   .message-content{
@@ -30,21 +30,21 @@
   }
 
   .contact-info h3{
-    color:white;
+    color:black;
     margin-top: 16px;
   }
 
   .contact-info p{
-    color: white;
+    color: black;
   }
   
   .contact input, .contact textarea{
     box-sizing: border-box;
     background: none;
     resize: none;
-    border: 0.1rem solid white;
+    border: 0.15rem solid #AAAAAA;
     border-radius: 0.5rem ;
-    color:white;
+    color: black;
     font-size: larger;
     outline: 0 !important;
     box-shadow: none !important;
@@ -57,11 +57,19 @@
   
   .contact input:focus, .contact textarea:focus{
     background: transparent;
-    border: 0.15rem solid white;
-    color:white;
+    border: 0.2rem solid #AAAAAA;
+    background-color: #F3F3F3;
+    color:black;
     font-size: larger;
   }
   
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #F3F3F3 inset !important;
+}
+
   .contact textarea{
     height: 8rem !important;
   }
@@ -69,10 +77,11 @@
   .contact-btn{
     font-size: larger;
     border-radius: 25px;
-    background-color: #151520;
+    background-color:#49A3B3;
     color: white;
     padding: 5px 30px 5px 30px;
-    margin: 0 10% 0 30%;
+    margin: 1% 5% 0 35%;
+    border-color: #49A3B3;
   }
   
   input.form-control{
@@ -91,7 +100,7 @@
   }
   
   .success-message{
-    font-weight: 900;
+    font-weight: 700;
     color: green;
   }
   
@@ -100,7 +109,7 @@
   }
 
   .text-center ::placeholder{
-    color:#C4C4C4;
+    color:#AAAAAA;
     font-size: large;
   }
 
@@ -117,6 +126,13 @@
     background-color: white;
     margin-right: 1rem;
     padding: 5px;
+}
+
+.copyright{
+  height: 5rem;
+  background-color: #EDEDED;
+  text-align: center;
+  padding: 1.7rem;
 }
 
 @media(max-width: 768px){
@@ -142,5 +158,13 @@
 
   .heading h1{
     font-size: 3rem;
+  }
+
+  .contact-btn{
+    margin: 1% 10% 0 30%;
+  }
+
+  .copyright{
+    padding: 1.3rem;
   }
 }

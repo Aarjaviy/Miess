@@ -32,7 +32,7 @@ const Contact = () => {
   const sendEmail = (serviceID, templateID, variables, userID) => {
     emailjs.send(serviceID, templateID, variables, userID)
       .then(() => {
-        setSuccessMessage("Form sent succesfully. I'll conatct you soon.");
+        setSuccessMessage("Message sent succesfully. We will contact you soon.");
       }).catch(err => console.error(`Something went wrong. ${err}`));
   };
 
@@ -88,10 +88,10 @@ const Contact = () => {
               <div className="text-center">
                 <textarea
                   className="form-control"
-                  placeholder="Please state your query"
+                  placeholder="Let us know...."
                   name="description"
                   {...register("description", {
-                    required: "You forgot to write your query",
+                    required: "You forgot to write your message",
                   })}
                 ></textarea>
               </div>
@@ -118,6 +118,9 @@ const Contact = () => {
             </div>
           </div>
         </form>
+      </div>
+      <div className="copyright">
+        <p>Copyrights 2022 | Mechanical and Industrial Engineering Student's Society | All Rights Reserved </p>
       </div>
     </div>
   )
