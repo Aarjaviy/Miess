@@ -1,13 +1,13 @@
 
   .team-div{
-    justify-content: center;;
+    justify-content: center;
     margin: 0% 0.95% 0% 0.95%;
     padding: 3%;
   }
 
   .team{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     flex-direction: row;
     justify-content: center;
     padding-top: 0.5%;
@@ -29,4 +29,29 @@
   .team-info h4,.team-info h6{
     text-align: center;
   }
-  
+
+  .team-info h4{
+    font-weight: bold;
+  }
+
+  @media(max-width: 360px){
+    .team-div{
+      justify-content: center;
+      margin: 0% 0.95% 0% 0.95%;
+      /* padding: 1%; */
+    }
+
+    .team-info{
+      margin: 0.1%;
+      width: 120px;
+      background-color: white
+    }
+    
+    .team-info img{
+      height: 150px;
+      width: 100px;
+      display: block;
+      margin:10px 0.1% 10px 0.1%;
+    }
+    
+  }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 .events{
     background-color: #F3F3F3;
     padding: 1rem 0 4rem 0;
@@ -9,15 +11,15 @@
   }
 
 .events img{
-    height: 10rem;
-    width: 10rem !important;
+    height: 24rem;
+    width: 24rem !important;
 }
 
 .events-content{
     margin-left: auto;
     margin-right: auto;
     background-color: #C8DFE3;
-    width: 50%;
+    width: 90%;
 }
 
 .myCarousel{
@@ -26,16 +28,40 @@
 }
 
 .carousel-content{
-
+    padding-left: 30px;
+    text-align: justify;
+}
+.carousel-content h3{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .carousel-content p{
-    font-size:larger;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
     color: black;
+    line-height: 39px;
 }
 
 @media(max-width: 768px){
     .myCarousel{
         display: block;
+    }
+    .events img{
+        max-width: 100%;
+        height: auto;
+    }
+    .carousel-content{
+        padding-left: 0%;
+    }
+    .carousel-content h3{
+        font-size: 1.5rem;
+        padding-top: 1rem;
+    }
+    .carousel-content p{
+        font-size: .75rem;
+        line-height: 1rem;
     }
 }

@@ -1,3 +1,85 @@
-.welcome{
-    margin-top: 8rem;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@800&display=swap');
+
+.welcome
+{   
+    display: flex;
+    color: #FFFFFF;
+    padding: 3rem;
+    padding-top: 8rem;
 }
+.txt
+{
+    padding: 2rem 1rem;
+    margin-left: 100px;
+    background-color:white;
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 45px;
+}
+.txt h1
+{
+    font-size: 96px;
+    line-height: 120px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #333333;
+}
+.txt h1 span{
+    color: #49A3B3;
+}
+.description
+{   
+    color: #555555;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+}
+.img-grid{
+    flex: 2;
+    display: flex;
+}
+
+.w1
+{
+    flex: 2;
+    margin-right: 65px;
+}
+.w2
+{
+    flex: 1;
+}
+
+.w2 img
+{
+    padding-bottom: 19px;
+}
+
+@media(max-width: 768px){
+    .welcome{
+        display: block;
+        padding: 0rem;
+        margin: 0%;
+        margin-top: 2rem;
+        margin-left: 0%;
+    }
+    .txt{
+        width: 100%;
+        padding: 2rem 0rem;
+        padding-top: 5rem;
+        text-align: center;
+    }
+    .txt h1{
+        font-size: 72px;
+        line-height: 6rem;
+    }
+    .img-grid{
+        width: 100%;
+        justify-content: center;
+        /* display: none; */
+    }
+}
+
+
+
