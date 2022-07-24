@@ -14,21 +14,18 @@ function Gallery() {
       <div className="heading">
         <h1>Gallery</h1>
         <div className='gallery_grid'>
-        <div class="g1">
-        <img src={gll1} alt="Image 1" class= "gallery-img gallery-img-1"></img>
-        <img src={gll5} alt="Image 1" class= "gallery-img gallery-img-2"></img>
-        <img src={gll6} alt="Image 1" class= "gallery-img gallery-img-3"></img>
-        <img src={gll4} alt="Image 1" class= "gallery-img gallery-img-4"></img>
-        <img src={gll3} alt="Image 1" class= "gallery-img gallery-img-5"></img>
-        <img src={gll2} alt="Image 1" class= "gallery-img gallery-img-6"></img>
-        <img src={gll7} alt="Image 1" class= "gallery-img gallery-img-7"></img>
+          <div className="g1">
+            <img src={gll1} alt="Gallery" className="gallery-img gallery-img-1" />
+            <img src={gll5} alt="Gallery" className="gallery-img gallery-img-2" />
+            <img src={gll6} alt="Gallery" className="gallery-img gallery-img-3" />
+            <img src={gll4} alt="Gallery" className="gallery-img gallery-img-4" />
+            <img src={gll3} alt="Gallery" className="gallery-img gallery-img-5" />
+            <img src={gll2} alt="Gallery" className="gallery-img gallery-img-6" />
+            <img src={gll7} alt="Gallery" className="gallery-img gallery-img-7" />
+          </div>
         </div>
-        </div>
-        </div>
-        </div>
-        
-
-      
+      </div>
+    </div>
   )
 }
 

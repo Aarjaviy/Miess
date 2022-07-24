@@ -12,13 +12,15 @@ function Welcome() {
         <p className="description">Mechanical And Industrial Engineering Students Society</p>
       </div>
       <div className="img-grid">
-        <div className="col col-1 w1">
+        <div className="img1">
           <img src={welcome1} alt="welcome img1"></img>
         </div>
-        <div className="col col-2 w2 row">
-          <img src={welcome2} className="column" alt="welcome img2"></img>
-          <img src={welcome3} className="column" alt="welcome img3"></img>
-        </div>
+        <div className="img2">
+          <img src={welcome2} alt="welcome img2"></img>
+          </div>
+          <div className='img3'>
+          <img src={welcome3} alt="welcome img3"></img>
+          </div>
       </div>
     </div>
   )

@@ -1,4 +1,3 @@
-import rgv from "../assets/aarjaviy.png"
 
 const TeamInfo = [
     {

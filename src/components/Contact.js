@@ -120,7 +120,7 @@ const Contact = () => {
         </form>
       </div>
       <div className="copyright">
-        <p>Copyrights 2022 | Mechanical and Industrial Engineering Student's Society | All Rights Reserved </p>
+        <p>Copyrights&copy;2022 Mechanical and Industrial Engineering Student's Society | All Rights Reserved </p>
       </div>
     </div>
   )

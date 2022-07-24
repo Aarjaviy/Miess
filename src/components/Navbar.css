@@ -44,6 +44,11 @@ nav{
     .navbar-brand{
       width: 7rem;
     }
+
+    .navbar-nav > li > a {
+      font-weight: 500;
+      text-align: center;
+    }
   }
   
   .navbar-nav > li >a.active, .navbar-nav > li > a:focus{

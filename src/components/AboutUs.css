@@ -6,7 +6,7 @@
 .about-us{
     display:flex;
     background-color: #F3F3F3;
-    padding: 7rem;
+    padding: 3rem 7rem 2rem 7rem;
     text-align: justify;
 }
 
@@ -49,5 +49,7 @@
     }
     .about-content h1{
         line-height: 5rem;
+        font-size: 3rem;
+        text-align: center;
     }
 }
