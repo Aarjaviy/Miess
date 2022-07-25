@@ -39,13 +39,13 @@ const TeamInfo = [
     {
         id: 7,
         name: "Apoorv Gupta",
-        por: "Secretary",
+        por: "Joint-Secretary",
         url: require("../assets/apoorv.png")
     },
     {
         id: 8,
         name: "Arpan Goel",
-        por: "Joint-Secretary",
+        por: "Secretary",
         url: require("../assets/arpan.png")
     },
     {
